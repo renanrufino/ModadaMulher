@@ -33,7 +33,6 @@
 </head>
 
 <body>
-
     <!-- header -->
     <header class="container-fluid">
         <!-- container -->
@@ -56,7 +55,13 @@
                     </button>
                 </form>
                 <!-- Administrativo do cliente -->
-                <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
+                <ul class="
+              col-md-3
+              nav
+              d-flex
+              align-items-center
+              justify-content-around
+            ">
                     <li class="nav-item">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -67,7 +72,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <span class="notificacao d-flex align-items-center justify-content-center">3</span>
+                        <span class="
+                  notificacao
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                ">3</span>
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-cart-fill" viewBox="0 0 16 16">
@@ -85,8 +95,8 @@
         <!-- end container -->
     </header>
     <!-- end header -->
-    <!-- Menu do Site -->
 
+    <!-- Menu do Site -->
     <nav class="container-fluid nav-produtos">
         <!-- container -->
         <section class="container">
@@ -101,21 +111,11 @@
                     Moda Feminina
                     <!-- sub-menu -->
                     <ul class="nav">
-                        <li class="nav-item">
-                            Lançamentos
-                        </li>
-                        <li class="nav-item">
-                            Plus Size
-                        </li>
-                        <li class="nav-item">
-                            Moda Praia
-                        </li>
-                        <li class="nav-item">
-                            Acessórios
-                        </li>
-                        <li class="nav-item">
-                            Promoção
-                        </li>
+                        <li class="nav-item">Lançamentos</li>
+                        <li class="nav-item">Plus Size</li>
+                        <li class="nav-item">Moda Praia</li>
+                        <li class="nav-item">Acessórios</li>
+                        <li class="nav-item">Promoção</li>
                     </ul>
                     <!-- end sub-menu -->
                 </li>
@@ -134,13 +134,32 @@
     </nav>
     <!-- End Menu do Site -->
 
-
-
-
-
-
-
-
+    <!-- banner promocionais rotativos-->
+    <section id="banner-promocionais" class="container carousel slide" data-ride="carousel">
+        <article class="carousel-inner">
+            <figure class="carousel-item active">
+                <img class="d-block w-100" src="./assets/imagens/banner-1.jpg"
+                    alt="Banner Promocional Lançamento Verão" />
+            </figure>
+            <figure class="carousel-item">
+                <img class="d-block w-100" src="./assets/imagens/banner-2.jpg"
+                    alt="Banner Promocional Diversos Itens" />
+            </figure>
+        </article>
+        <!-- prev-->
+        <a class="carousel-control-prev" href="#banner-promocionais" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- end prev-->
+        <!-- next-->
+        <a class="carousel-control-next" href="#banner-promocionais" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!-- end next-->
+    </section>
+    <!-- end banner promocionais rotativos -->
 
     <!--   Arquivos do Bootstrap Script   -->
     <script src="./assets/js/jquery.js"></script>
