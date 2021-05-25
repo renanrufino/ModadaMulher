@@ -36,18 +36,18 @@
 
     <!-- header -->
     <header class="container-fluid">
-            <!-- container -->
+        <!-- container -->
         <section class="container">
             <!-- row -->
-            <article class="row">
+            <article class="row d-flex align-items-center">
                 <!-- logo -->
-                <a href="#" class="col-md-2">
+                <a href="#" class="col-md-2 d-flex justify-content-center">
                     <img src="./assets/imagens/logo.svg" alt="Logo da Empresa Moda da Mulher" />
                 </a>
                 <!-- buscador -->
-                <form class="col-md-7">
+                <form class="col-md-7 d-flex align-items-center">
                     <input type="text" name="name" placeholder="Procurar Roupas Aqui" />
-                    <button>
+                    <button class="d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-search" viewBox="0 0 16 16">
                             <path
@@ -56,7 +56,7 @@
                     </button>
                 </form>
                 <!-- Administrativo do cliente -->
-                <ul class="col-md-3 nav">
+                <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
                     <li class="nav-item">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <span class="notificacao">3</span>
+                        <span class="notificacao d-flex align-items-center justify-content-center">3</span>
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-cart-fill" viewBox="0 0 16 16">
@@ -85,14 +85,63 @@
         <!-- end container -->
     </header>
     <!-- end header -->
-    
+    <!-- Menu do Site -->
+
+    <nav class="container-fluid nav-produtos">
+        <!-- container -->
+        <section class="container">
+            <!-- menu -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    Moda Feminina
+                    <!-- sub-menu -->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            Lançamentos
+                        </li>
+                        <li class="nav-item">
+                            Plus Size
+                        </li>
+                        <li class="nav-item">
+                            Moda Praia
+                        </li>
+                        <li class="nav-item">
+                            Acessórios
+                        </li>
+                        <li class="nav-item">
+                            Promoção
+                        </li>
+                    </ul>
+                    <!-- end sub-menu -->
+                </li>
+                <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    Calçados
+                </li>
+            </ul>
+            <!-- end menu -->
+        </section>
+        <!-- end container -->
+    </nav>
+    <!-- End Menu do Site -->
 
 
 
-    
 
 
-    
+
+
+
+
     <!--   Arquivos do Bootstrap Script   -->
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/popper.js"></script>
