@@ -8,6 +8,11 @@ a {
   text-decoration: none !important;
 }
 
+header {
+  background: #FFC107;
+  padding: 1.5rem;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
