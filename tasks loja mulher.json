@@ -1,0 +1,12 @@
+{
+
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "BuildSass Loja mulher",
+            "type": "shell",
+            "command": "sass --watch assets/scss/style.scss:assets/css/style.css",
+            "group": "build"
+        }
+    ]
+}
