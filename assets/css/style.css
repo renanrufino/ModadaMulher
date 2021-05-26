@@ -84,6 +84,15 @@ nav.nav-produtos ul.nav li li {
   padding: 0.5rem 1rem;
 }
 
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+  background-color: #FF0F9A;
+  background-image: url("../imagens/parcele-em-12x_1.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-color: #B343C3;
+  background-image: url("../imagens/entrega-para-todo-brasil_2.jpg");
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
