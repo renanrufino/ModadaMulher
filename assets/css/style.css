@@ -13,6 +13,20 @@ header {
   padding: 1.5rem;
 }
 
+form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
