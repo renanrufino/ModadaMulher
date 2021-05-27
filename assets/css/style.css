@@ -38,6 +38,8 @@ header ul li a {
 }
 header ul li a svg {
   font-size: 23px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 header ul li a:hover {
   color: #343A40;
@@ -166,9 +168,19 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 767px) {
   header form {
     margin: 1.5rem 0;
+  }
+
+  #banner-promocionais {
+    display: none;
   }
 }
 @media (max-width: 991px) {
