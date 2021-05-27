@@ -1,0 +1,22 @@
+.produtos{
+    margin:2rem 0;
+    .produtos-container{
+        margin:2rem 0;
+        .produtos-itens{
+            color: $cinza;
+            h2{
+                font-size: 1.25rem;
+                margin: .7rem 0;
+            }
+            .produtos-star{
+                font-size: .7rem;
+                svg{
+                    fill:$amarelo;
+                }
+            }
+            .produtos-preco{
+                font-size: 1rem;
+            }
+        }
+    }
+}
