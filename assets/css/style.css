@@ -84,6 +84,9 @@ nav.nav-produtos ul.nav li li {
   padding: 0.5rem 1rem;
 }
 
+.banners-promocionais-statico {
+  margin-top: 2rem;
+}
 .banners-promocionais-statico .banners-promocionais-statico-12x {
   background-color: #FF0F9A;
   background-image: url("../imagens/parcele-em-12x_1.jpg");
@@ -91,6 +94,31 @@ nav.nav-produtos ul.nav li li {
 .banners-promocionais-statico .banners-promocionais-statico-todo-br {
   background-color: #B343C3;
   background-image: url("../imagens/entrega-para-todo-brasil_2.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 1.5px 3.75rem;
+  color: #fff;
+}
+.banners-promocionais-statico svg, .banners-promocionais-statico p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-statico svg {
+  font-size: 40px;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.banners-promocionais-statico p {
+  font-Weight: 100;
+  font-size: 1.5rem;
+  line-height: 110%;
+  margin-left: 1.5rem;
+}
+.banners-promocionais-statico strong {
+  font-weight: bold;
 }
 
 /*!
