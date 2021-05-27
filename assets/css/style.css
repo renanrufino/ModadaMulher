@@ -123,29 +123,6 @@ nav.nav-produtos ul.nav li li {
   font-weight: bold;
 }
 
-.produtos {
-  margin: 2rem 0;
-}
-.produtos .produtos-container {
-  margin: 2rem 0;
-}
-.produtos .produtos-container .produtos-itens {
-  color: #343A40;
-}
-.produtos .produtos-container .produtos-itens h2 {
-  font-size: 1.25rem;
-  margin: 0.7rem 0;
-}
-.produtos .produtos-container .produtos-itens .produtos-star {
-  font-size: 0.7rem;
-}
-.produtos .produtos-container .produtos-itens .produtos-star svg {
-  fill: #FFC107;
-}
-.produtos .produtos-container .produtos-itens .produtos-preco {
-  font-size: 1rem;
-}
-
 footer {
   background: #343A40;
   padding: 1.5rem 0;
@@ -192,6 +169,41 @@ footer ul li.ellipsis {
     margin: 0.5rem 0;
   }
 }
+.produtos {
+  margin: 2rem 0;
+}
+.produtos .produtos-container {
+  margin: 2rem 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 1.25rem;
+  margin: 0.7rem 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-star {
+  font-size: 0.7rem;
+}
+.produtos .produtos-container .produtos-itens .produtos-star svg {
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: 1rem;
+}
+
+.produtos-compra figure {
+  margin: 0;
+}
+
+.produtos-conteudo h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.produtos-conteudo p {
+  font-size: 1rem;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
