@@ -204,6 +204,22 @@ footer ul li.ellipsis {
   font-size: 1rem;
 }
 
+.produtos-preco .produtos-star svg {
+  fill: #FFC107;
+}
+.produtos-preco strong {
+  font-size: 2.5rem;
+}
+.produtos-preco form {
+  font-weight: 100;
+}
+.produtos-preco form label {
+  margin: 0;
+}
+.produtos-preco .produtos-star svg, .produtos-preco strong span, .produtos-preco form {
+  font-size: 1rem;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
