@@ -72,11 +72,15 @@ nav.nav-produtos ul.nav li:hover ul.nav li.nav-item:hover {
   background: #FFC107;
   width: 100%;
 }
+nav.nav-produtos ul.nav li:hover ul.nav li.nav-item-darken:hover {
+  background: black;
+  width: 100%;
+}
 nav.nav-produtos ul.nav li ul.nav {
   z-index: 999;
   display: none;
   position: absolute;
-  top: 50px;
+  top: 49px;
   left: 0px;
   background: #343A40;
   border-top: 10px solid #FFC107;
