@@ -13,9 +13,11 @@
 @import './footer.scss';
 @import './responsivo.scss';
 
-
 //Framework
 @import './bootstrap.scss';
 
 //Config
 @import './config.scss';
+
+//Componentes Bootstrap
+@import './breadcrumb.scss';
